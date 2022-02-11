@@ -19,7 +19,7 @@ public class PersonService {
     public MessageResponseDTO createPerson(Person person){
         Person savedPerson = personRepository.save(person);
         return MessageResponseDTO
-                .builder()
+        		.builder()
                 .message("Created person with ID " + savedPerson.getId())
                 .build();
     }

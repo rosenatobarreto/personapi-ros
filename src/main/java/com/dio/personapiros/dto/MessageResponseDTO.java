@@ -1,5 +1,6 @@
 package com.dio.personapiros.dto;
 
+
 import lombok.Builder;
 import lombok.Data;
 
@@ -8,4 +9,5 @@ import lombok.Data;
 public class MessageResponseDTO {
 
     private String message;
+    
 }
