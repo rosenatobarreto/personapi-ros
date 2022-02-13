@@ -4,15 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-
+import javax.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.br.CPF;
-
-import com.sun.istack.NotNull;
-
 import java.util.List;
 
 @Data

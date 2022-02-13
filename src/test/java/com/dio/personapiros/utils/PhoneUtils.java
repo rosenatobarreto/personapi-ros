@@ -5,6 +5,7 @@ import com.dio.personapiros.entity.Phone;
 import com.dio.personapiros.enums.PhoneType;
 
 public class PhoneUtils {
+
     private static final String PHONE_NUMBER = "8399999-9999";
     private static final PhoneType PHONE_TYPE = PhoneType.MOBILE;
     private static final long PHONE_ID = 1L;

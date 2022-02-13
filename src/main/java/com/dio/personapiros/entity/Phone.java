@@ -21,8 +21,6 @@ import javax.persistence.Id;
 @NoArgsConstructor
 public class Phone {
 
-	private static final long serialVersionUID = 1L;
-
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -31,7 +29,7 @@ public class Phone {
 	@Column(nullable = false)
 	private PhoneType type;
 
-	@Column(nullable = false)
+	@Column(nullable = false, unique = true)
 	private String number;
 
 

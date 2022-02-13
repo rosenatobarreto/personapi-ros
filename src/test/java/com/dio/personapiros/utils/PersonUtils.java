@@ -7,11 +7,12 @@ import java.time.LocalDate;
 import java.util.Collections;
 
 public class PersonUtils {
+
     private static final String FIRST_NAME = "Joao";
     private static final String LAST_NAME = "Silva";
-    private static final String CPF_NUMBER = "123.456.789-11";
+    private static final String CPF_NUMBER = "123.999.784-41";
     private static final long PERSON_ID = 1L;
-    private static final LocalDate BIRTH_DATE = LocalDate.of(2010, 10, 1);
+    public static final LocalDate BIRTH_DATE = LocalDate.of(2010, 10,1);
 
     public static PersonDTO createFakeDTO() {
         return PersonDTO.builder()
