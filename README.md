@@ -4,3 +4,5 @@
 #### Projeto de uma API REST com Spring Boot para cadastro e gerenciamento de pessoas de uma organização (desenvolvimento até o deploy no Heroku). Atividade do bootcamp Amdocs Java Developer da DIO.
 
 #### Projeto desenvolvido com Spring Boot.
+
+#### API disponível em https://peopleapi-rosen.herokuapp.com/
